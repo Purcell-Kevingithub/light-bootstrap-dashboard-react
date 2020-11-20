@@ -47,11 +47,11 @@ class UserProfile extends Component {
                       ncols={["col-md-5", "col-md-3", "col-md-4"]}
                       properties={[
                         {
-                          label: "Company (disabled)",
+                          label: "Role (disabled)",
                           type: "text",
                           bsClass: "form-control",
-                          placeholder: "Company",
-                          defaultValue: "Creative Code Inc.",
+                          placeholder: "Role",
+                          defaultValue: "User",
                           disabled: true
                         },
                         {
